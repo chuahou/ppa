@@ -1,3 +1,10 @@
+iosevka (3.7.1.deps-kiwami) focal; urgency=medium
+
+  * Add nodeJS dependencies into tarball, as Launchpad doesn't allow fetching
+    of npm dependencies over the internet.
+
+ -- Chua Hou <human+github@chuahou.dev>  Mon, 09 Nov 2020 00:18:39 +0800
+
 iosevka (3.7.1-kiwami+2fix) focal; urgency=medium
 
   * Add npm to Build-Depends.
