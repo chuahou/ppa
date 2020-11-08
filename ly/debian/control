@@ -1,0 +1,16 @@
+Source:            ly
+Maintainer:        Chua Hou <human+github@chuahou.dev>
+Section:           x11
+Priority:          optional
+Standards-Version: 3.9.2
+Build-Depends:     debhelper (>= 11),
+                   build-essential,
+                   libpam0g-dev,
+                   libxcb-xkb-dev
+Homepage:          https://github.com/nullgemm/ly
+
+Package:      ly
+Architecture: any
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  display manager with console UI
+ Ly is a lightweight TUI (ncurses-like) display manager for Linux and BSD.
