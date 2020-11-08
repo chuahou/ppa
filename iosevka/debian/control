@@ -3,7 +3,7 @@ Maintainer:        Chua Hou <human+github@chuahou.dev>
 Section:           fonts
 Priority:          optional
 Standards-Version: 3.9.2
-Build-Depends:     debhelper (>= 11), ttfautohint, nodejs
+Build-Depends:     debhelper (>= 11), ttfautohint, nodejs, npm
 Homepage:          https://github.com/be5invis/Iosevka
 
 Package:      fonts-ioslabka

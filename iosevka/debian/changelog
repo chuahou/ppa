@@ -1,8 +1,16 @@
+iosevka (3.7.1-kiwami+2fix) focal; urgency=medium
+
+  * Add npm to Build-Depends.
+
+ -- Chua Hou <human+github@chuahou.dev>  Sun, 08 Nov 2020 23:56:32 +0800
+
 iosevka (3.7.1-kiwami+2) focal; urgency=medium
 
   * Split fonts-iosevka package into fonts-iosevka with standard Iosevka, and
     fonts-iosevka-fixed with Iosevka Fixed.
   * Release for focal.
+
+ -- Chua Hou <human+github@chuahou.dev>  Fri, 08 Nov 2020 23:35:56 +0800
 
 iosevka (3.7.1-kiwami+1) UNRELEASED; urgency=medium
 
