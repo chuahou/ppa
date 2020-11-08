@@ -1,0 +1,7 @@
+Add Makefile to perform build.
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,3 @@
++all:
++	npm install
++	npm run build -- ttf::ioslabka ttf::iosevka-fixed ttf::iosevka

@@ -1,0 +1,32 @@
+Source:            iosevka
+Maintainer:        Chua Hou <human+github@chuahou.dev>
+Section:           fonts
+Priority:          optional
+Standards-Version: 3.9.2
+Build-Depends:     debhelper (>= 11), ttfautohint, nodejs
+Homepage:          https://github.com/be5invis/Iosevka
+
+Package:      fonts-ioslabka
+Architecture: all
+Multi-Arch:   foreign
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  slender typeface for code, from code
+ Coders' typeface, built from code.
+ This package is a customized build for my own preferences, based on the
+ Iosevka Slab variant (hence Ioslabka).
+
+Package:      fonts-iosevka
+Architecture: all
+Multi-Arch:   foreign
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  slender typeface for code, from code
+ Coders' typeface, built from code.
+ Contains TTF build of standard Iosevka.
+
+Package:      fonts-iosevka-fixed
+Architecture: all
+Multi-Arch:   foreign
+Depends:      ${shlibs:Depends}, ${misc:Depends}
+Description:  slender typeface for code, from code
+ Coders' typeface, built from code.
+ Contains TTF build of standard Iosevka Fixed.
