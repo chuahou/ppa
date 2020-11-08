@@ -8,6 +8,13 @@ ppa
 files. PPA located at
 https://launchpad.net/~c3hou/+archive/ubuntu/packages.
 
+Many of these packages have pecularities making it difficult to build
+them purely the Debian way on Launchpad (basically, they need
+dependencies fetched from the web, that Launchpad can't do). Hence, each
+directory may have a prepare.sh script that does modifications that need
+to be done BEFORE running ``debuild``; see each directory's README for
+details.
+
 Warning
 =======
 
