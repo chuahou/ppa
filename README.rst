@@ -1,3 +1,5 @@
+Moved to `chuahou/dpkgs <https://github.com/chuahou/dpkgs>`_.
+
 ###
 ppa
 ###
